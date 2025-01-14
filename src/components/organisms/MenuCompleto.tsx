@@ -33,19 +33,19 @@ const MenuCompleto: React.FC = () => {
       <nav className="flex items-center space-x-8 text-lg">
         <a
           href="/"
-          className="text-white font-semibold hover:text-indigo-500"
+          className="text-white hover:text-indigo-500"
         >
           Seja um profissional
         </a>
         <a
           href="/"
-          className="text-white font-semibold hover:text-indigo-500"
+          className="text-white hover:text-indigo-500"
         >
           Como funciona?
         </a>
         <a
           href="/"
-          className="flex items-center text-white font-semibold hover:text-indigo-500"
+          className="flex items-center text-indigo-500 font-semibold hover:text-indigo-900"
         >
           <FaSignInAlt className="mr-2" /> Entrar
         </a>

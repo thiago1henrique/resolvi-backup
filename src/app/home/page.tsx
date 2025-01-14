@@ -14,6 +14,7 @@ import { CarouselWorkers } from "@/components/organisms/CarouselWorkers";
 import DownloadAppSection from "@/components/organisms/DownloadAppSection";
 import InsetHome1 from "@/components/organisms/InsetHome";
 import ServicesSection from "@/components/organisms/ServicesSection";
+import Footer from "@/components/organisms/Footer";
 
 const HomePage = () => {
     return (
@@ -127,6 +128,7 @@ const HomePage = () => {
                     </div>
                 </main>
             </div>
+            <Footer />
         </>
     );
 };
